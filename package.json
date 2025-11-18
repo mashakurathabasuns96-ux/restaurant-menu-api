@@ -1,0 +1,15 @@
+{
+  "name": "restaurant-menu-api",
+  "version": "1.0.0",
+  "description": "Restaurant Menu Display API for assignment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
