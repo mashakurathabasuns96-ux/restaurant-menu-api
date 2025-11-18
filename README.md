@@ -38,7 +38,7 @@ restaurant-menu-api/
 
 ## API Documentation
 
-### 1. GET `/menu`
+### 1. GET /menu
 - **Method:** GET 
 
 - **Description:** Returns an array of all menu items.  
@@ -89,3 +89,44 @@ restaurant-menu-api/
     { "name": "Main Course", "itemCount": 3 }
   ]
 }
+
+6. Installation & Setup Instructions
+
+1. Clone the Repository : 
+   git clone https://github.com/mashakurathabasuns96-ux/restaurant-menu-api
+
+2. Navigate to the project directory : cd restaurant-menu-api
+
+3. Install backend dependencies : npm install
+
+4. Start the Server : npm start
+
+5. Access the Application
+
+### Backend API Endpoints:
+
+http://localhost:3000/menu
+
+http://localhost:3000/menu/vegetarian
+
+http://localhost:3000/menu/categories
+
+### Frontend:
+
+Visit http://localhost:3000/ in your browser.
+
+7. Features
+
+*In-memory menu data (no DB required)
+
+*3 GET endpoints: all items, vegetarian items, categories with counts
+
+*Simple frontend that fetches and displays data
+
+*Vegetarian/non-veg indicated visually
+
+*Basic error handling on frontend
+
+8. GitHub Repository Link : https://github.com/mashakurathabasuns96-ux/restaurant-menu-api.git
+
+9. Author Information : Mashkura Thabasum 
